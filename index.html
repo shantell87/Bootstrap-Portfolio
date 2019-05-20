@@ -1,69 +1,122 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic Portfolio</title>
-    <!-- Bootstrap CDN -->
+    <title>Bootstrap Portfolio</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css" /> -->
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text.css" href="./css/style.css">
+    <style>
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+      
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+          </style>
+
 </head>
 
-<body>
-        <!-- <nav> -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Shantell Davis</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
+<body class="d-flex flex-column h-100">
+
+    <div class="container">
+        <!--nav container beg-->
+        <!--Nav bar starts -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand font-weight-bold"
+                style="background-color: #4aaaa5; color: honeydew; padding: 20px; font-family: 'Georgia', Times, Times New Roman, serif">Shantell
+                Davis</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                  </ul>
-                </div>
-              </nav>
-        <!-- </nav> -->
-    </nav>
-
-    <div class="wrapper">
-
-        <section id="content">
-
-            <h2>About Me</h2>
-            <img src="./assets/images/headshot2.jpg" alt="" id="bio-image">
-
-            <p>Apple sauce, bananas, blueberries and pancakes. Apple sauce, bananas, blueberries and pancakes. Apple
-                sauce, bananas, blueberries and pancakes. Apple sauce, bananas, blueberries and pancakes. Apple sauce,
-                bananas, blueberries and pancakes.</p>
-
-            <p>Apple sauce, bananas, blueberries and pancakes. Apple sauce, bananas, blueberries and pancakes. Apple
-                sauce, bananas, blueberries and pancakes. Apple sauce, bananas, blueberries and pancakes. Apple sauce,
-                bananas, blueberries and pancakes.</p>
-
-            <p>Apple sauce, bananas, blueberries and pancakes. Apple sauce, bananas, blueberries and pancakes. Apple
-                sauce, bananas, blueberries and pancakes. Apple sauce, bananas, blueberries and pancakes. Apple sauce,
-                bananas, blueberries and pancakes.</p>
-
-        </section>
-
+                </ul>
+            </div>
+        </nav>
+        <!--Nav bar starts -->
     </div>
 
-    <footer>
-        <div>
-            Shantell Davis
+    <!--bcg-->
+    <div id="intro" class="view">
+        <div class="full-bg-img">
+        </div>
+    </div>
+    <!--bcg-->
+
+    <!--nav container end-->
+
+    <!--main container-->
+    <div class="container" style="background-color: #cccccc ;width:960px; padding:30px">
+
+        <div class="row">
+            <!--first row-->
+            <div class="col-lg-8">
+                <div class="page-header" style="font-family: 'Georgia', Times, Times New Roman, serif">
+                    <h2 style="color: #4aaaa5;font: 35px; border-bottom: 3px solid #dddddd">About Me</h2>
+                </div>
+            </div>
+        </div>
+        <!--first row end-->
+
+        <div class="row" style="padding-top:20px">
+            <!--second row-->
+            <div class="col-md-8">
+                <img style='float:left;margin-right:10px;' src="./images/headshot2.jpg" alt="">
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime consectetur
+                    provident labore illum harum
+                    velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum repudiandae
+                    veritatis? Vel, facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+                    consectetur
+                    provident labore illum harum
+                    velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum repudiandae
+                    veritatis? Vel, facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+                    consectetur
+                    provident labore illum harum
+                    velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum repudiandae
+                    veritatis? Vel, facilis.</p>
+            </div>
+            <!--second row ends-->
+        </div>
+    </div>
+    <!--wrapper end-->
+    <footer class="footer mt-auto py-3" style="background-color: #666666;border-top: 8px solid #4aaaa5">
+        <div class="container">
+            <span class="text-muted" style="color: #ffffff">Please smile.</span>
         </div>
     </footer>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
 
 </body>
 
