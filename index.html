@@ -1,123 +1,233 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
+<!--html height set a 100 for sticky footer and nav-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Portfolio</title>
-
+    <title>Document</title>
+    <!-- Bootstrap CDN link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- style link -->
     <link rel="stylesheet" type="text.css" href="./css/style.css">
-    <style>
-            .bd-placeholder-img {
-              font-size: 1.125rem;
-              text-anchor: middle;
-              -webkit-user-select: none;
-              -moz-user-select: none;
-              -ms-user-select: none;
-              user-select: none;
-            }
-      
-            @media (min-width: 768px) {
-              .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-              }
-            }
-          </style>
 
 </head>
 
 <body class="d-flex flex-column h-100">
-
-    <div class="container">
-        <!--nav container beg-->
-        <!--Nav bar starts -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand font-weight-bold"
-                style="background-color: #4aaaa5; color: honeydew; padding: 20px; font-family: 'Georgia', Times, Times New Roman, serif">Shantell
-                Davis</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!--Nav bar starts -->
-    </div>
-
-    <!--bcg-->
-    <div id="intro" class="view">
-        <div class="full-bg-img">
+    <div class="wrapper">
+        <!--page wrapper-->
+        <!--nav bar beg-->
+        <div class="container">
+            <!--nav container-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand font-weight-bold"
+                    style="background-color: #4aaaa5; color: honeydew; padding: 20px; font-family: 'Georgia', Times, Times New Roman, serif">Shantell
+                    Davis</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--nav bar ends-->
         </div>
-    </div>
-    <!--bcg-->
+        <!--nav container end-->
+       
+        <div class="container" style="padding: 30px">
+            <!--about me container-->
 
-    <!--nav container end-->
-
-    <!--main container-->
-    <div class="container" style="background-color: #cccccc ;width:960px; padding:30px">
-
-        <div class="row">
-            <!--first row-->
-            <div class="col-lg-8">
-                <div class="page-header" style="font-family: 'Georgia', Times, Times New Roman, serif">
-                    <h2 style="color: #4aaaa5;font: 35px; border-bottom: 3px solid #dddddd">About Me</h2>
+            <div class="row">
+                <!-- first row -->
+                <div class="col-lg-8">
+                    <div class="page-header" style="font-family: 'Georgia', Times, Times New Roman, serif">
+                        <h2 style="color: #4aaaa5;font: 35px; border-bottom: 3px solid #dddddd">About Me</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!--first row end-->
+            <!-- first row ends -->
 
-        <div class="row" style="padding-top:20px">
-            <!--second row-->
-            <div class="col-md-8">
-                <img style='float:left;margin-right:10px;' src="./images/headshot2.jpg" alt="">
+            <div class="row py-5 bg-light" style="padding-top:20px">
+                <!-- second row starts -->
+                <div class="col-md-8">
+                    <!--1 column-->
+                    <img style='float:left;margin-right:10px;' src="./images/headshot2.jpg" alt="">
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime consectetur
-                    provident labore illum harum
-                    velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum repudiandae
-                    veritatis? Vel, facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
-                    consectetur
-                    provident labore illum harum
-                    velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum repudiandae
-                    veritatis? Vel, facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
-                    consectetur
-                    provident labore illum harum
-                    velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum repudiandae
-                    veritatis? Vel, facilis.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime consectetur
+                        provident labore illum harum
+                        velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum
+                        repudiandae
+                        veritatis? Vel, facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+                        consectetur
+                        provident labore illum harum
+                        velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum
+                        repudiandae
+                        veritatis? Vel, facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+                        consectetur
+                        provident labore illum harum
+                        velit placeat nostrum! Fugit sit vitae optio possimus impedit dolores accusamus laborum
+                        repudiandae
+                        veritatis? Vel, facilis.</p>
+                </div>
             </div>
             <!--second row ends-->
         </div>
+            
+        <!--contact container beg-->
+            <div class="container" id="contact">
+
+                <div class="row" style="padding: 30px">
+                    <div class="col-lg-8">
+                        <div class="page-header" style="font-family: 'Georgia', Times, Times New Roman, serif">
+                            <h2 style="color: #4aaaa5;font: 35px; border-bottom: 3px solid #dddddd">Contact Me</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form class="py-5 bg-light">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Shantell Davis">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="shantell87@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="height:200px"
+                            placeholder="Write something..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+            <!--contact row end-->
+
+        <div class="container" id="portfolio">
+
+            <div class="row" style="padding: 30px">
+                <!--row 1 beg-->
+                <div class="col-lg-8">
+                    <div class="page-header" style="font-family: 'Georgia', Times, Times New Roman, serif">
+                        <h2 style="color: #4aaaa5;font: 35px; border-bottom: 3px solid #dddddd">Portfolio</h2>
+                    </div>
+                </div>
+            </div>
+            <!--row 1 ends-->
+
+            <div class="album py-5 bg-light">
+                <div class="row">
+                    <!--row 2 beg-->
+                    <div class="col-md-4"> <!--row 1, col 1-->
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./images/Merengue.png" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                <title>Merengue</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em"></text>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">Merengue</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4 shadow-sm"> <!--row 2, col 1-->
+                            <img src="./images/International Latin.jpg" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em"></text>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">International Latin</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-4">  <!--row 1, col 2-->
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./images/tango.png" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em"></text>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">Tango</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                    
+                    <div class="col-md-4"> <!--row 1 col 3-->
+                        <div class="card mb-4 shadow-sm">
+                            <img src="./images/waltz.png" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em"></text>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">Waltz</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4 shadow-sm"> <!--row 2 col 3-->
+                            <img src="./images/west_coast_swing.png" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                            focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em"></text>
+                        
+                            <div class="card-body">
+                                <p class="card-text">West Coast Swing</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--album div end-->
+        </div>
+        <!--portfolio container ends-->
+
     </div>
-    <!--wrapper end-->
+    <!--page wrapper ends-->
+    <!--footer-->
     <footer class="footer mt-auto py-3" style="background-color: #666666;border-top: 8px solid #4aaaa5">
         <div class="container">
-            <span class="text-muted" style="color: #ffffff">Please smile.</span>
+            <span class="text-muted" style="color: #ffffff; text-align: center">Please smile.</span>
         </div>
     </footer>
-    
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
-        crossorigin="anonymous"></script>
-
 </body>
 
 </html>
